@@ -1,0 +1,3316 @@
+Started GET "/" for ::1 at 2019-04-18 02:48:21 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (3.7ms)
+Completed 200 OK in 246ms (Views: 11.2ms)
+
+
+Started GET "/" for ::1 at 2019-04-18 02:52:34 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (3.3ms)
+Completed 200 OK in 194ms (Views: 8.5ms)
+
+
+Started GET "/" for ::1 at 2019-04-18 02:52:35 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (3.2ms)
+Completed 200 OK in 9ms (Views: 5.9ms)
+
+
+Started GET "/index" for ::1 at 2019-04-18 02:52:37 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/index" for ::1 at 2019-04-18 02:52:44 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-04-18 02:52:44 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.8ms)
+Completed 200 OK in 8ms (Views: 5.4ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-18 02:52:47 +0900
+Processing by HeloController#index as HTML
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.8ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-18 02:52:50 +0900
+Processing by HeloController#index as HTML
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-04-18 02:52:51 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 8ms (Views: 5.5ms)
+
+
+Started GET "/huga" for ::1 at 2019-04-18 02:52:52 +0900
+Processing by HeloController#index as HTML
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/huga" for ::1 at 2019-04-18 02:53:09 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/huga"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-04-18 02:53:10 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.3ms)
+Completed 200 OK in 9ms (Views: 5.3ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-18 02:53:11 +0900
+Processing by HeloController#index as HTML
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms)
+
+
+Started GET "/helo" for ::1 at 2019-04-18 02:53:13 +0900
+Processing by HeloController#index as HTML
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/helo" for ::1 at 2019-04-18 02:57:05 +0900
+Processing by HeloController#index as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 3ms (Views: 2.4ms)
+
+
+Started GET "/helo" for ::1 at 2019-04-18 02:59:13 +0900
+Processing by HeloController#index as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.9ms)
+
+
+Started GET "/helo" for ::1 at 2019-04-18 03:08:15 +0900
+Processing by HeloController#index as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms)
+
+
+Started GET "/helo?msg=hoge" for ::1 at 2019-04-18 03:08:36 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"hoge"}
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/helo?msg=hoge" for ::1 at 2019-04-18 14:02:55 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"hoge"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 884ms (Views: 601.7ms)
+
+
+Started GET "/helo?msg=hoge" for ::1 at 2019-04-18 14:04:51 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"hoge"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 27ms (Views: 24.7ms)
+
+
+Started GET "/helo?msg=hoge" for ::1 at 2019-04-18 14:04:57 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"hoge"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 30ms (Views: 28.8ms)
+
+
+Started GET "/helo" for ::1 at 2019-04-18 14:04:58 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 22ms (Views: 20.1ms)
+
+
+Started GET "/helo" for ::1 at 2019-04-18 14:05:00 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 25.7ms)
+
+
+Started GET "/helo" for ::1 at 2019-04-18 14:05:04 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 36ms (Views: 27.5ms)
+
+
+Started GET "/" for ::1 at 2019-04-18 14:05:04 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (3.5ms)
+Completed 200 OK in 11ms (Views: 7.2ms)
+
+
+Started GET "/index" for ::1 at 2019-04-18 14:05:05 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/index" for ::1 at 2019-04-18 14:05:06 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-04-18 14:05:23 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 8ms (Views: 5.2ms)
+
+
+Started GET "/" for ::1 at 2019-04-18 14:05:23 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.9ms)
+Completed 200 OK in 10ms (Views: 5.8ms)
+
+
+Started GET "/" for ::1 at 2019-04-18 14:05:26 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 8ms (Views: 5.2ms)
+
+
+Started GET "/index" for ::1 at 2019-04-18 14:05:27 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/index" for ::1 at 2019-04-18 14:05:28 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/index" for ::1 at 2019-04-18 14:05:34 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-04-18 14:05:35 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.8ms)
+Completed 200 OK in 8ms (Views: 5.4ms)
+
+
+Started GET "/helo" for ::1 at 2019-04-18 14:05:36 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 16.3ms)
+
+
+Started GET "/helo" for ::1 at 2019-04-18 14:05:37 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 20.1ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-18 14:05:41 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 15.7ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-18 14:05:42 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 18.8ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-18 14:05:49 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 23.6ms)
+
+
+Started GET "/helo/piyo" for ::1 at 2019-04-18 14:05:51 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/helo/piyo"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/helo/piyo" for ::1 at 2019-04-18 14:06:41 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/helo/piyo"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/helo/piyo" for ::1 at 2019-04-18 14:09:09 +0900
+Processing by HeloController#piyo as HTML
+  Rendering helo/piyo.html.erb within layouts/application
+  Rendered helo/piyo.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 21.0ms)
+
+
+Started GET "/piyo" for ::1 at 2019-04-18 14:09:23 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/piyo"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/piyo" for ::1 at 2019-04-18 14:09:36 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/piyo"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-04-18 14:09:37 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.2ms)
+Completed 200 OK in 8ms (Views: 4.8ms)
+
+
+Started GET "/helo" for ::1 at 2019-04-18 14:09:37 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 15.4ms)
+
+
+Started GET "/helo" for ::1 at 2019-04-18 14:09:38 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 14.7ms)
+
+
+Started GET "/helo" for ::1 at 2019-04-18 14:10:01 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/helo"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-04-18 14:10:01 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.5ms)
+Completed 200 OK in 8ms (Views: 5.3ms)
+
+
+Started GET "/piyo" for ::1 at 2019-04-18 14:10:02 +0900
+Processing by HeloController#piyo as HTML
+  Rendering helo/piyo.html.erb within layouts/application
+  Rendered helo/piyo.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20ms (Views: 18.2ms)
+
+
+Started GET "/piyo" for ::1 at 2019-04-18 14:10:03 +0900
+Processing by HeloController#piyo as HTML
+  Rendering helo/piyo.html.erb within layouts/application
+  Rendered helo/piyo.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 16.5ms)
+
+
+Started GET "/piyo" for ::1 at 2019-04-18 14:10:05 +0900
+Processing by HeloController#piyo as HTML
+  Rendering helo/piyo.html.erb within layouts/application
+  Rendered helo/piyo.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 14.3ms)
+
+
+Started GET "/" for ::1 at 2019-04-18 14:10:06 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.9ms)
+Completed 200 OK in 9ms (Views: 5.8ms)
+
+
+Started GET "/index" for ::1 at 2019-04-18 14:10:06 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 15.1ms)
+
+
+Started GET "/index" for ::1 at 2019-04-18 14:10:07 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 16.6ms)
+
+
+Started GET "/index" for ::1 at 2019-04-18 14:13:53 +0900
+  
+SyntaxError (/Users/mac/hoge/app/controllers/helo_controller.rb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end):
+  
+app/controllers/helo_controller.rb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/" for ::1 at 2019-04-18 14:13:53 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 8ms (Views: 5.0ms)
+
+
+Started GET "/index" for ::1 at 2019-04-18 14:13:54 +0900
+  
+SyntaxError (/Users/mac/hoge/app/controllers/helo_controller.rb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end):
+  
+app/controllers/helo_controller.rb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/index" for ::1 at 2019-04-18 14:13:54 +0900
+  
+SyntaxError (/Users/mac/hoge/app/controllers/helo_controller.rb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end):
+  
+app/controllers/helo_controller.rb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/index" for ::1 at 2019-04-18 14:14:04 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 17.1ms)
+
+
+Started GET "/index" for ::1 at 2019-04-18 14:14:17 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 19ms (Views: 17.5ms)
+
+
+Started GET "/index" for ::1 at 2019-04-19 00:47:03 +0900
+  
+SyntaxError (/Users/mac/hoge/app/controllers/helo_controller.rb:18: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/helo_controller.rb:18: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/index" for ::1 at 2019-04-19 00:47:40 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 401ms (Views: 212.3ms)
+
+
+Started GET "/index" for ::1 at 2019-04-19 00:47:44 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 20.8ms)
+
+
+Started GET "/" for ::1 at 2019-04-19 00:47:45 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 10ms (Views: 6.2ms)
+
+
+Started GET "/helo" for ::1 at 2019-04-19 00:47:45 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/helo"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/helo/index" for ::1 at 2019-04-19 00:47:46 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 40ms (Views: 36.1ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 00:47:47 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 19ms (Views: 17.2ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 00:47:50 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 15ms (Views: 13.6ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 00:47:51 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 23ms (Views: 21.3ms)
+
+
+Started GET "/" for ::1 at 2019-04-19 00:47:51 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 8ms (Views: 5.2ms)
+
+
+Started GET "/piyo" for ::1 at 2019-04-19 00:47:52 +0900
+Processing by HeloController#piyo as HTML
+  Rendering helo/piyo.html.erb within layouts/application
+  Rendered helo/piyo.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 15.5ms)
+
+
+Started GET "/piyo" for ::1 at 2019-04-19 00:47:53 +0900
+Processing by HeloController#piyo as HTML
+  Rendering helo/piyo.html.erb within layouts/application
+  Rendered helo/piyo.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 16.5ms)
+
+
+Started GET "/piyo" for ::1 at 2019-04-19 00:47:57 +0900
+Processing by HeloController#piyo as HTML
+  Rendering helo/piyo.html.erb within layouts/application
+  Rendered helo/piyo.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 64ms (Views: 62.7ms)
+
+
+Started GET "/" for ::1 at 2019-04-19 00:47:59 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 8ms (Views: 5.3ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 00:47:59 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20ms (Views: 18.3ms)
+
+
+Started GET "/helo" for ::1 at 2019-04-19 00:48:00 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/helo"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/helo/index" for ::1 at 2019-04-19 00:48:00 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 15.6ms)
+
+
+Started GET "/helo/piyo" for ::1 at 2019-04-19 00:48:01 +0900
+Processing by HeloController#piyo as HTML
+  Rendering helo/piyo.html.erb within layouts/application
+  Rendered helo/piyo.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 16.1ms)
+
+
+Started GET "/helo/piyo" for ::1 at 2019-04-19 00:48:03 +0900
+Processing by HeloController#piyo as HTML
+  Rendering helo/piyo.html.erb within layouts/application
+  Rendered helo/piyo.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 31ms (Views: 29.3ms)
+
+
+Started GET "/helo/piyo" for ::1 at 2019-04-19 00:48:06 +0900
+Processing by HeloController#piyo as HTML
+  Rendering helo/piyo.html.erb within layouts/application
+  Rendered helo/piyo.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 21.3ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 00:48:07 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 21.8ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 00:48:08 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 18.2ms)
+
+
+Started GET "/" for ::1 at 2019-04-19 00:48:08 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 8ms (Views: 5.1ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 00:48:09 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 17.9ms)
+
+
+Started GET "/" for ::1 at 2019-04-19 00:48:10 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 7ms (Views: 4.8ms)
+
+
+Started GET "/others" for ::1 at 2019-04-19 00:48:12 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/others"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/others" for ::1 at 2019-04-19 00:48:45 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/others"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/other" for ::1 at 2019-04-19 00:48:45 +0900
+Processing by HeloController#other as HTML
+Redirected to http://localhost:3000/helo/index?msg=from+other+page
+Completed 302 Found in 1ms
+
+
+Started GET "/helo/index?msg=from+other+page" for ::1 at 2019-04-19 00:48:45 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"from other page"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 236ms (Views: 209.4ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 00:49:08 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 16.4ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 00:49:10 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 14.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-19 00:49:10 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 8ms (Views: 5.1ms)
+
+
+Started GET "/other" for ::1 at 2019-04-19 00:49:11 +0900
+Processing by HeloController#other as HTML
+Redirected to http://localhost:3000/helo/index?msg=from+other+page
+Completed 302 Found in 1ms
+
+
+Started GET "/helo/index?msg=from+other+page" for ::1 at 2019-04-19 00:49:11 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"from other page"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 14.2ms)
+
+
+Started GET "/other" for ::1 at 2019-04-19 00:49:12 +0900
+Processing by HeloController#other as HTML
+Redirected to http://localhost:3000/helo/index?msg=from+other+page
+Completed 302 Found in 1ms
+
+
+Started GET "/helo/index?msg=from+other+page" for ::1 at 2019-04-19 00:49:12 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"from other page"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 21.1ms)
+
+
+Started GET "/helo/index?msg=from+other+page" for ::1 at 2019-04-19 00:49:17 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"from other page"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 14.4ms)
+
+
+Started GET "/helo/index?msg=from+other+page" for ::1 at 2019-04-19 00:49:21 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"from other page"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 14.4ms)
+
+
+Started GET "/helo/index?msg=from+other+page" for ::1 at 2019-04-19 00:49:22 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"from other page"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 19ms (Views: 17.3ms)
+
+
+Started GET "/helo/index?msg=from+other+page" for ::1 at 2019-04-19 00:49:23 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"from other page"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 20.1ms)
+
+
+Started GET "/helo/index?msg=from+other+page" for ::1 at 2019-04-19 00:49:28 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"from other page"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 14.0ms)
+
+
+Started GET "/helo/index?msg=from+other+page" for ::1 at 2019-04-19 00:49:30 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"from other page"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 15ms (Views: 13.7ms)
+
+
+Started GET "/helo/index?msg=fumiya" for ::1 at 2019-04-19 00:49:32 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"fumiya"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 17.7ms)
+
+
+Started GET "/helo/iother?msg=fumiya" for ::1 at 2019-04-19 00:49:44 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/helo/iother"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/helo/other?msg=fumiya" for ::1 at 2019-04-19 00:49:52 +0900
+Processing by HeloController#other as HTML
+  Parameters: {"msg"=>"fumiya"}
+Redirected to http://localhost:3000/helo/index?msg=from+other+page
+Completed 302 Found in 1ms
+
+
+Started GET "/helo/index?msg=from+other+page" for ::1 at 2019-04-19 00:49:52 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"from other page"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 18.6ms)
+
+
+Started GET "/helo/index?msg=from+other+page" for ::1 at 2019-04-19 01:04:12 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"from other page"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 15.5ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 01:04:16 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 14.1ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 01:04:16 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 18ms (Views: 16.8ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 01:05:48 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 48ms (Views: 43.7ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:06:23 +0900
+Processing by HeloController#index as HTML
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (5.1.7) lib/action_controller/metal/request_forgery_protection.rb:195:in `handle_unverified_request'
+actionpack (5.1.7) lib/action_controller/metal/request_forgery_protection.rb:227:in `handle_unverified_request'
+actionpack (5.1.7) lib/action_controller/metal/request_forgery_protection.rb:222:in `verify_authenticity_token'
+activesupport (5.1.7) lib/active_support/callbacks.rb:413:in `block in make_lambda'
+activesupport (5.1.7) lib/active_support/callbacks.rb:197:in `call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:197:in `block (2 levels) in halting'
+actionpack (5.1.7) lib/abstract_controller/callbacks.rb:12:in `call'
+actionpack (5.1.7) lib/abstract_controller/callbacks.rb:12:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.1.7) lib/active_support/callbacks.rb:198:in `call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:198:in `block in halting'
+activesupport (5.1.7) lib/active_support/callbacks.rb:507:in `call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:507:in `block in invoke_before'
+activesupport (5.1.7) lib/active_support/callbacks.rb:507:in `each'
+activesupport (5.1.7) lib/active_support/callbacks.rb:507:in `invoke_before'
+activesupport (5.1.7) lib/active_support/callbacks.rb:130:in `run_callbacks'
+actionpack (5.1.7) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.7) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.7) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.7) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.7) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.7) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.7) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.7) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.7) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.7) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.7) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.7) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.7) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.7) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/helo/index" for ::1 at 2019-04-19 01:07:41 +0900
+Processing by HeloController#index as HTML
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (5.1.7) lib/action_controller/metal/request_forgery_protection.rb:195:in `handle_unverified_request'
+actionpack (5.1.7) lib/action_controller/metal/request_forgery_protection.rb:227:in `handle_unverified_request'
+actionpack (5.1.7) lib/action_controller/metal/request_forgery_protection.rb:222:in `verify_authenticity_token'
+activesupport (5.1.7) lib/active_support/callbacks.rb:413:in `block in make_lambda'
+activesupport (5.1.7) lib/active_support/callbacks.rb:197:in `call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:197:in `block (2 levels) in halting'
+actionpack (5.1.7) lib/abstract_controller/callbacks.rb:12:in `call'
+actionpack (5.1.7) lib/abstract_controller/callbacks.rb:12:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.1.7) lib/active_support/callbacks.rb:198:in `call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:198:in `block in halting'
+activesupport (5.1.7) lib/active_support/callbacks.rb:507:in `call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:507:in `block in invoke_before'
+activesupport (5.1.7) lib/active_support/callbacks.rb:507:in `each'
+activesupport (5.1.7) lib/active_support/callbacks.rb:507:in `invoke_before'
+activesupport (5.1.7) lib/active_support/callbacks.rb:130:in `run_callbacks'
+actionpack (5.1.7) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.7) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.7) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.7) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.7) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.7) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.7) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.7) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.7) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.7) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.7) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.7) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.7) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.7) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/helo/index" for ::1 at 2019-04-19 01:07:52 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 24.2ms)
+
+
+Started GET "/helo" for ::1 at 2019-04-19 01:07:52 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/helo"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/helo" for ::1 at 2019-04-19 01:07:53 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/helo"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/helo/index" for ::1 at 2019-04-19 01:08:09 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 16.5ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 01:08:10 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 18.0ms)
+
+
+Started GET "/index" for ::1 at 2019-04-19 01:08:15 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 14.1ms)
+
+
+Started GET "/index" for ::1 at 2019-04-19 01:08:15 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 20.4ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:08:18 +0900
+Processing by HeloController#index as HTML
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (5.1.7) lib/action_controller/metal/request_forgery_protection.rb:195:in `handle_unverified_request'
+actionpack (5.1.7) lib/action_controller/metal/request_forgery_protection.rb:227:in `handle_unverified_request'
+actionpack (5.1.7) lib/action_controller/metal/request_forgery_protection.rb:222:in `verify_authenticity_token'
+activesupport (5.1.7) lib/active_support/callbacks.rb:413:in `block in make_lambda'
+activesupport (5.1.7) lib/active_support/callbacks.rb:197:in `call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:197:in `block (2 levels) in halting'
+actionpack (5.1.7) lib/abstract_controller/callbacks.rb:12:in `call'
+actionpack (5.1.7) lib/abstract_controller/callbacks.rb:12:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.1.7) lib/active_support/callbacks.rb:198:in `call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:198:in `block in halting'
+activesupport (5.1.7) lib/active_support/callbacks.rb:507:in `call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:507:in `block in invoke_before'
+activesupport (5.1.7) lib/active_support/callbacks.rb:507:in `each'
+activesupport (5.1.7) lib/active_support/callbacks.rb:507:in `invoke_before'
+activesupport (5.1.7) lib/active_support/callbacks.rb:130:in `run_callbacks'
+actionpack (5.1.7) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.7) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.7) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.7) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.7) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.7) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.7) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.7) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.7) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.7) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.7) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.7) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.7) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.7) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/index" for ::1 at 2019-04-19 01:08:39 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20ms (Views: 17.4ms)
+
+
+Started GET "/index" for ::1 at 2019-04-19 01:10:47 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 15.3ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:10:54 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"input1"=>"fuga"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (5.1.7) lib/action_controller/metal/request_forgery_protection.rb:195:in `handle_unverified_request'
+actionpack (5.1.7) lib/action_controller/metal/request_forgery_protection.rb:227:in `handle_unverified_request'
+actionpack (5.1.7) lib/action_controller/metal/request_forgery_protection.rb:222:in `verify_authenticity_token'
+activesupport (5.1.7) lib/active_support/callbacks.rb:413:in `block in make_lambda'
+activesupport (5.1.7) lib/active_support/callbacks.rb:197:in `call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:197:in `block (2 levels) in halting'
+actionpack (5.1.7) lib/abstract_controller/callbacks.rb:12:in `call'
+actionpack (5.1.7) lib/abstract_controller/callbacks.rb:12:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.1.7) lib/active_support/callbacks.rb:198:in `call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:198:in `block in halting'
+activesupport (5.1.7) lib/active_support/callbacks.rb:507:in `call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:507:in `block in invoke_before'
+activesupport (5.1.7) lib/active_support/callbacks.rb:507:in `each'
+activesupport (5.1.7) lib/active_support/callbacks.rb:507:in `invoke_before'
+activesupport (5.1.7) lib/active_support/callbacks.rb:130:in `run_callbacks'
+actionpack (5.1.7) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.7) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.7) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.7) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.7) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.7) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.7) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.7) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.7) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.7) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.7) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.7) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.7) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.7) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/helo/index" for ::1 at 2019-04-19 01:13:15 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"input1"=>"fuga"}
+Can't verify CSRF token authenticity.
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 21.2ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:13:19 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"input1"=>""}
+Can't verify CSRF token authenticity.
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 29ms (Views: 27.0ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:13:25 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"input1"=>"hoge"}
+Can't verify CSRF token authenticity.
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 17ms (Views: 13.9ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 01:13:28 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 14.5ms)
+
+
+Started GET "/helo/other?msg=fumiya" for ::1 at 2019-04-19 01:13:29 +0900
+Processing by HeloController#other as HTML
+  Parameters: {"msg"=>"fumiya"}
+Redirected to http://localhost:3000/helo/index?msg=from+other+page
+Completed 302 Found in 1ms
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 01:13:31 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 16.6ms)
+
+
+Started GET "/helo/piyo" for ::1 at 2019-04-19 01:13:32 +0900
+Processing by HeloController#piyo as HTML
+  Rendering helo/piyo.html.erb within layouts/application
+  Rendered helo/piyo.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 16.6ms)
+
+
+Started GET "/helo/piyo" for ::1 at 2019-04-19 01:13:33 +0900
+Processing by HeloController#piyo as HTML
+  Rendering helo/piyo.html.erb within layouts/application
+  Rendered helo/piyo.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 16.3ms)
+
+
+Started GET "/helo/piyo" for ::1 at 2019-04-19 01:13:35 +0900
+Processing by HeloController#piyo as HTML
+  Rendering helo/piyo.html.erb within layouts/application
+  Rendered helo/piyo.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 16.7ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 01:13:36 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 14.0ms)
+
+
+Started GET "/helo/other?msg=fumiya" for ::1 at 2019-04-19 01:13:37 +0900
+Processing by HeloController#other as HTML
+  Parameters: {"msg"=>"fumiya"}
+Redirected to http://localhost:3000/helo/index?msg=from+other+page
+Completed 302 Found in 1ms
+
+
+Started GET "/helo/index?msg=from+other+page" for ::1 at 2019-04-19 01:13:37 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"from other page"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 15.1ms)
+
+
+Started GET "/helo/other?msg=fumiya" for ::1 at 2019-04-19 01:13:38 +0900
+Processing by HeloController#other as HTML
+  Parameters: {"msg"=>"fumiya"}
+Redirected to http://localhost:3000/helo/index?msg=from+other+page
+Completed 302 Found in 1ms
+
+
+Started GET "/helo/index?msg=from+other+page" for ::1 at 2019-04-19 01:13:38 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"from other page"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 13.7ms)
+
+
+Started GET "/helo/other?msg=fumiya" for ::1 at 2019-04-19 01:13:39 +0900
+Processing by HeloController#other as HTML
+  Parameters: {"msg"=>"fumiya"}
+Redirected to http://localhost:3000/helo/index?msg=from+other+page
+Completed 302 Found in 1ms
+
+
+Started GET "/helo/index?msg=from+other+page" for ::1 at 2019-04-19 01:13:39 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"from other page"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 17.9ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:14:43 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"input1"=>""}
+Can't verify CSRF token authenticity.
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 20.0ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:20:00 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"input1"=>""}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (5.1.7) lib/action_controller/metal/request_forgery_protection.rb:195:in `handle_unverified_request'
+actionpack (5.1.7) lib/action_controller/metal/request_forgery_protection.rb:227:in `handle_unverified_request'
+actionpack (5.1.7) lib/action_controller/metal/request_forgery_protection.rb:222:in `verify_authenticity_token'
+activesupport (5.1.7) lib/active_support/callbacks.rb:413:in `block in make_lambda'
+activesupport (5.1.7) lib/active_support/callbacks.rb:197:in `call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:197:in `block (2 levels) in halting'
+actionpack (5.1.7) lib/abstract_controller/callbacks.rb:12:in `call'
+actionpack (5.1.7) lib/abstract_controller/callbacks.rb:12:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.1.7) lib/active_support/callbacks.rb:198:in `call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:198:in `block in halting'
+activesupport (5.1.7) lib/active_support/callbacks.rb:507:in `call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:507:in `block in invoke_before'
+activesupport (5.1.7) lib/active_support/callbacks.rb:507:in `each'
+activesupport (5.1.7) lib/active_support/callbacks.rb:507:in `invoke_before'
+activesupport (5.1.7) lib/active_support/callbacks.rb:130:in `run_callbacks'
+actionpack (5.1.7) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.7) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.7) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.7) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.7) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.7) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.7) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.7) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.7) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.7) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.7) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.7) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.7) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.7) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/helo/index" for ::1 at 2019-04-19 01:21:11 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 20ms (Views: 18.0ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:21:14 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dLDXSX5VYE9KXSeSE6Icu2xU97J/Lr1Tj66XgooU5VgFxk3BkGr5y3u59VDFPfMX1XGqMWHOBk6GcozF1Tc2YA==", "input1"=>"", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 32ms (Views: 29.5ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:21:18 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1+ZXQtE/CMnwEoTm9qkSDf0G6ppC6IgefTsQKAnhzwKmkM3KPwCRTcH2ViQgNv2hRCO3GVwIMwN05wtvVsIcOg==", "input1"=>"fuga", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 25ms (Views: 23.0ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:34:42 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1+ZXQtE/CMnwEoTm9qkSDf0G6ppC6IgefTsQKAnhzwKmkM3KPwCRTcH2ViQgNv2hRCO3GVwIMwN05wtvVsIcOg==", "input1"=>"fuga", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 18ms (Views: 16.5ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 01:34:48 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 23ms (Views: 21.6ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:34:51 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0pACRgfpBAPv4HHz8L0n9Qh1epe1vtB1ysKQJ2/tplej5pjO6dadh94EozEmIshZsVAnFKtea2jDHotgMM51bw==", "check1"=>"1", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 27ms (Views: 25.2ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:34:52 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qD6SlowihuheazTr/gnpt4noqCoUQf/LLAtcKUuFsgXZSAgeYh0fbG+P5ikolgYbMM31qQqhRNYl10duFKZhPQ==", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 17.7ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:34:53 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"467k5M0W1gwYcVPgv586D24XJ0FKwnLqLwFXtQsNvOKS2H5sIylPiCmVgSJpANWj1zJ6wlQiyfcm3UzyVC5v2g==", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 27ms (Views: 24.5ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:34:54 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eBHp5t3W1o6HfIj0M/aym6zUB7zjjWDSdmqq7x/SqncJZ3NuM+lPCraYWjblaV03FfFaP/1t289/trGoQPF5Tw==", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 18.9ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:34:55 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tJfYYtAHhI+nPSKfhll4RQ282uRC0/0YgANroIsrLLPF4ULqPjgdC5bZ8F1QxpfptJmHZ1wzRgWJ33Dn1Aj/iw==", "check1"=>"1", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 28ms (Views: 26.2ms)
+
+
+Started GET "/index" for ::1 at 2019-04-19 01:37:18 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 34ms (Views: 32.0ms)
+
+
+Started GET "/index" for ::1 at 2019-04-19 01:37:18 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 21ms (Views: 19.1ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:37:21 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ubYX5Uun1+jbiFAh+3ZMtiIEnj+N8Zv2Ewj8jzGhI0DIwI1tpZhObOpsguMt6aMamyHDvJMRIOsa1OfIboLweA==", "check1"=>"1", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 20ms (Views: 18.6ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:37:22 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+p9sEVYFfcqZkAda3QF6umqJTOd05CxMMxTn7dNA4D+L6faZuDrkTqh01ZgLnpUW06wRZGoEl1E6yPyqjGMzBw==", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 21ms (Views: 18.9ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 01:37:30 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 25ms (Views: 23.1ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 01:50:16 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 18ms (Views: 16.2ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:50:19 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"r7nR+mO86snlyaed702GcT6hB8GYeHLEx0kPtlX2mTTez0tyjYNzTdQtdV850mndh4RaQoaYydnOlRTxCtVKDA==", "r1"=>"radio 1", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 20ms (Views: 18.3ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:50:20 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aWsfV/Zvaoj6XPRdz0tpFWDdJ018ZIzlcRAQTyTdi94YHYXfGFDzDMu4Jp8Z1Ia52fh6zmKEN/h4zAsIe/5Y5g==", "r1"=>"radio 2", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 18ms (Views: 16.1ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 01:52:02 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 21ms (Views: 18.8ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:52:05 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"H3NQBNDVex9ytiOeR67jv8fC3ppnkAQP/qcU0vv38yFuBcqMPurim0NS8VyRMQwTfueDGXlwvxL3ew+VpNQgGQ==", "r1"=>"radio 1", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 22ms (Views: 19.8ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:52:07 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ju8IgxnxZK/4PE4zNeP7EPTYlzhLkKWvYgrRU5uM3AH/mZIL9879K8nYnPHjfBS8Tf3Ku1VwHrJr1soUxK8POQ==", "r1"=>"radio 2", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 22ms (Views: 20.7ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:54:57 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ju8IgxnxZK/4PE4zNeP7EPTYlzhLkKWvYgrRU5uM3AH/mZIL9879K8nYnPHjfBS8Tf3Ku1VwHrJr1soUxK8POQ==", "r1"=>"radio 2", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 21ms (Views: 18.9ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:54:59 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"D1WXDSKKaa/9shqc06FXt0cXG03wmKYblEBBtNzpEdJ+Iw2FzLXwK8xWyF4FPrgb/jJGzu54HQadnFrzg8rC6g==", "r1"=>"radio 3", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 30ms (Views: 28.4ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:55:13 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"D1WXDSKKaa/9shqc06FXt0cXG03wmKYblEBBtNzpEdJ+Iw2FzLXwK8xWyF4FPrgb/jJGzu54HQadnFrzg8rC6g==", "r1"=>"radio 3", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 21ms (Views: 18.8ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:55:15 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"T+rJ/Onw+AaPQMYL/kOwzdjSwexdzKl7f25OO69wEPc+nFN0B89hgr6kFMko3F9hYfecb0MsEmZ2slV88FPDzw==", "r1"=>"radio guitar", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 20ms (Views: 18.4ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:58:14 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"T+rJ/Onw+AaPQMYL/kOwzdjSwexdzKl7f25OO69wEPc+nFN0B89hgr6kFMko3F9hYfecb0MsEmZ2slV88FPDzw==", "r1"=>"radio guitar", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 28ms (Views: 22.8ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 01:58:19 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 19ms (Views: 17.5ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:58:22 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3lcY2o03uTzJEC1Z2zOhwmXzKcxaliOkw78SOXMK/5OvIYJSYwgguPj0/5sNrE5u3NZ0T0R2mLnKYwl+LCksqw==", "inst"=>"instrument guitar", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 19ms (Views: 17.2ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:58:25 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EIJcgOpzBxMpAZ+k0KDG2Lb7nzX5UYtW1F73LF2FZxVh9MYIBEyelxjlTWYGPyl0D97CtuexMEvdguxrAqa0LQ==", "inst"=>"instrument guitar", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 18ms (Views: 16.5ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:59:02 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EIJcgOpzBxMpAZ+k0KDG2Lb7nzX5UYtW1F73LF2FZxVh9MYIBEyelxjlTWYGPyl0D97CtuexMEvdguxrAqa0LQ==", "inst"=>"instrument guitar", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 21ms (Views: 19.0ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 01:59:04 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 22ms (Views: 19.6ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:59:06 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A0wXsEK65GNuSaWmmu01Oam3YBJHFYsBcBzL69iZzspyOo04rIV951+td2RMctqVEJI9kVn1MBx5wNCsh7od8g==", "inst"=>"instrument guitar", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 20ms (Views: 18.3ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:59:08 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"at6+9cQMNSTr37BmVZ1ozP7it7aZW3j2LDnumfXl9z8bqCR9KjOsoNo7YqSDAodgR8fqNYe7w+sl5fXeqsYkBw==", "inst"=>"instrument drum", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 19ms (Views: 17.4ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 01:59:10 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1tXUZkM8W87KdX1BpB1iJXGblhsyZ3S15pjxTzq56jino07urQPCSvuRr4Nygo2JyL7LmCyHz6jvROoIZZo5AA==", "inst"=>"instrument bass", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 22ms (Views: 20.0ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 02:01:34 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 24ms (Views: 21.2ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 02:01:36 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WSz07evYpj+lf+FvUR3ZTOPGyDni+jutYFXzXMD7do4oWm5lBec/u5SbM62HgjbgWuOVuvwagLBpiegbn9iltg==", "inst"=>"instrument guitar", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 19ms (Views: 16.5ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 02:01:38 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o0kKlsLgcazTmWVdRUHxXxgX7mS46NmQYvRhpv0amDrSP5AeLN/oKOJ9t5+T3h7zoTKz56YIYo1rKHrhojlLAg==", "inst"=>"instrument drum", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 19ms (Views: 17.2ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 02:01:40 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RiyeXrgr4HXvjy/IubWorTXeEXjGpTQjSuyAkuOhw4g3WgTWVhR58d5r/QpvKkcBjPtM+9hFjz5DMJvVvIIQsA==", "inst"=>"instrument bass", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 19ms (Views: 17.6ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 02:02:55 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RiyeXrgr4HXvjy/IubWorTXeEXjGpTQjSuyAkuOhw4g3WgTWVhR58d5r/QpvKkcBjPtM+9hFjz5DMJvVvIIQsA==", "inst"=>"instrument bass", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 25ms (Views: 21.6ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-19 02:02:57 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 21ms (Views: 19.3ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 02:03:10 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iGeWf3NSNN05l13A7ka1C+i5Ja6StW3GdNXsjvsMgs35EQz3nW2tWQhzjwI42VqnUZx4LYxV1tt9CffJpC9R9Q==", "inst"=>"guitar", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 18ms (Views: 16.7ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-19 02:03:13 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"j1VdNQMC3tGsAhpRSzxBBLsMaxyQjgHRHGWBdxRlG0/+I8e97T1HVZ3myJOdo66oAik2n45uuswVuZowS0bIdw==", "inst"=>"drum", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 20ms (Views: 17.4ms)
+
+
+Started GET "/index" for ::1 at 2019-04-22 13:22:01 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 489ms (Views: 259.7ms)
+
+
+Started GET "/" for ::1 at 2019-04-22 13:22:55 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.8ms)
+Completed 200 OK in 9ms (Views: 5.8ms)
+
+
+Started GET "/" for ::1 at 2019-04-22 13:22:59 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 8ms (Views: 5.2ms)
+
+
+Started GET "/index" for ::1 at 2019-04-22 13:22:59 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 16ms (Views: 14.4ms)
+
+
+Started GET "/index" for ::1 at 2019-04-22 13:23:00 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 19ms (Views: 16.8ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-22 13:23:04 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V2dRMKo8xXGW8l5VP9+2GMRTOLvtm54is0SlLlRBKYHGYJv45KObAP+4RmZZcn8rLzwrUBEwyKSWpZqSelWW4g==", "inst"=>"guitar", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 20ms (Views: 18.3ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-22 13:23:06 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rVIcM7+pqdty0ZiSLPqgvoU8G2s8thz78xJPsV1WKMc8Vdb78Tb3qhubgKFKV2mNblMIgMAdSn3W83ANc0KXpA==", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 18ms (Views: 16.1ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-22 13:37:39 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rVIcM7+pqdty0ZiSLPqgvoU8G2s8thz78xJPsV1WKMc8Vdb78Tb3qhubgKFKV2mNblMIgMAdSn3W83ANc0KXpA==", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 18ms (Views: 16.4ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-22 13:37:44 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 19.7ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-22 13:37:47 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Apsg0f/q0AFxqfl8LBywrMWTa/ubfFOjEXSIHWhE996TnOoZsXWOcBjj4U9KsXmfLvx4EGfXBSU0lbehRlBIvQ==", "inst"=>"Drum", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 21ms (Views: 18.1ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-22 13:39:56 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Apsg0f/q0AFxqfl8LBywrMWTa/ubfFOjEXSIHWhE996TnOoZsXWOcBjj4U9KsXmfLvx4EGfXBSU0lbehRlBIvQ==", "inst"=>"Drum", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 16.9ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-22 13:39:58 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 18ms (Views: 16.9ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-22 13:40:02 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZKAvPtfUgZZH67rrwZVPcZwXn5pBh5AnfVpex6sgmN31p+X2mUvf5y6hotinOIZCd3iMcb0sxqFYu2F7hTQnvg==", "inst"=>["Guitar"], "commit"=>"Click"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of Array into String):
+  
+app/controllers/helo_controller.rb:7:in `+'
+app/controllers/helo_controller.rb:7:in `index'
+Started POST "/helo/index" for ::1 at 2019-04-22 13:42:39 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZKAvPtfUgZZH67rrwZVPcZwXn5pBh5AnfVpex6sgmN31p+X2mUvf5y6hotinOIZCd3iMcb0sxqFYu2F7hTQnvg==", "inst"=>["Guitar"], "commit"=>"Click"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/controllers/helo_controller.rb:8:in `index'
+Started POST "/helo/index" for ::1 at 2019-04-22 13:43:00 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZKAvPtfUgZZH67rrwZVPcZwXn5pBh5AnfVpex6sgmN31p+X2mUvf5y6hotinOIZCd3iMcb0sxqFYu2F7hTQnvg==", "inst"=>["Guitar"], "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 27ms (Views: 24.6ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-22 13:43:05 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/EpV7DJmwP8OCvD8ZbrELXHUEtXy+uT/Isp8f/gBFsxtTZ8kfPmejmdA6M8DFw0emrsBPg5RsnkHK0PD1hWprw==", "inst"=>["Guitar"], "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 28ms (Views: 25.3ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-22 13:43:07 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I2rnEokFNxNaEd+OW3vbrDgJmAxhmo57uxgV0qqycDmybS3ax5ppYjNbx7091hKf02aL550x2P2e+SpuhKbPWg==", "inst"=>["Drum"], "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 20ms (Views: 18.0ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-22 13:43:08 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5yhacb+MF1dO4LLHjrGMBn/8hnIddJL8zaZGBJuVNJF2L5C58RNJJieqqvToHEU1lJOVmeHfxHroR3m4tYGL8g==", "inst"=>["Keyboard"], "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 26ms (Views: 22.6ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-22 13:44:34 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hfvQbHBXsGLkZjMjFbVfXUd9RfstpVQ3spGq2qF9b/8U/BqkPsjuE40sKxBzGJZurBJWENEOArGXcJVmj2nQnA==", "inst"=>["Guitar", "Drum", "Bass"], "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 18ms (Views: 16.2ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-22 13:44:39 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lYyc33ja2IDtWWtcr8x2OGV4QUKKN/KkKUh9C29X3qAEi1YXNkWG8YQTc2/JYb8LjhdSqXacpCIMqUK3QUNhww==", "inst"=>["Guitar", "Drum", "Bass", "Keyboard"], "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 23ms (Views: 21.3ms)
+
+
+Started POST "/helo/index" for ::1 at 2019-04-22 14:02:06 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lYyc33ja2IDtWWtcr8x2OGV4QUKKN/KkKUh9C29X3qAEi1YXNkWG8YQTc2/JYb8LjhdSqXacpCIMqUK3QUNhww==", "inst"=>["Guitar", "Drum", "Bass", "Keyboard"], "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/helo
+  Rendered helo/index.html.erb within layouts/helo (1.0ms)
+Completed 500 Internal Server Error in 9ms
+
+
+  
+SyntaxError (/Users/mac/hoge/app/views/layouts/helo.html.erb:8: unknown regexp options - had
+unmatched close parenthesis: /title>
+    <%= csrf_meta_tags );@output_buffer.safe_append='
+    '.freeze;@output_buffer.append=( stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' );@output_buffer.safe_append='
+    '.freeze;@output_buffer.append=( javascript_include_tag 'application', 'data-turbolinks-track': 'reload' );@output_buffer.safe_append='
+  </
+/Users/mac/hoge/app/views/layouts/helo.html.erb:10: syntax error, unexpected '<'
+  <body>
+   ^
+/Users/mac/hoge/app/views/layouts/helo.html.erb:11: syntax error, unexpected tIDENTIFIER, expecting ')'
+...pend=( render template:'layouts/helo/header' );@output_buffe...
+...                               ^
+/Users/mac/hoge/app/views/layouts/helo.html.erb:11: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+... template:'layouts/helo/header' );@output_buffer.safe_append...
+...                               ^
+/Users/mac/hoge/app/views/layouts/helo.html.erb:13: syntax error, unexpected '<', expecting ')'
+    <div> </div>
+     ^
+/Users/mac/hoge/app/views/layouts/helo.html.erb:15: unknown regexp options - hl
+end pattern with unmatched parenthesis: /div>
+    <hr size="1" color="#aaa">
+    '.freeze;@output_buffer.append=( render template:'layouts/
+/Users/mac/hoge/app/views/layouts/helo.html.erb:15: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+... template:'layouts/helo/footer' );@output_buffer.safe_append...
+...                               ^
+/Users/mac/hoge/app/views/layouts/helo.html.erb:16: syntax error, unexpected '<', expecting ')'
+  </body>
+   ^
+/Users/mac/hoge/app/views/layouts/helo.html.erb:17: unknown regexp options - htl
+/Users/mac/hoge/app/views/layouts/helo.html.erb:18: unterminated string meets end of file
+/Users/mac/hoge/app/views/layouts/helo.html.erb:18: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/layouts/helo.html.erb:8: unknown regexp options - had
+app/views/layouts/helo.html.erb:10: syntax error, unexpected '<'
+app/views/layouts/helo.html.erb:11: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/helo.html.erb:11: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/helo.html.erb:13: syntax error, unexpected '<', expecting ')'
+app/views/layouts/helo.html.erb:15: unknown regexp options - hl
+app/views/layouts/helo.html.erb:15: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/helo.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/helo.html.erb:17: unknown regexp options - htl
+app/views/layouts/helo.html.erb:18: unterminated string meets end of file
+app/views/layouts/helo.html.erb:18: syntax error, unexpected end-of-input, expecting ')'
+Started POST "/helo/index" for ::1 at 2019-04-22 14:13:54 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lYyc33ja2IDtWWtcr8x2OGV4QUKKN/KkKUh9C29X3qAEi1YXNkWG8YQTc2/JYb8LjhdSqXacpCIMqUK3QUNhww==", "inst"=>["Guitar", "Drum", "Bass", "Keyboard"], "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/helo
+  Rendered helo/index.html.erb within layouts/helo (1.5ms)
+Completed 200 OK in 7ms (Views: 4.9ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-22 14:13:58 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/helo
+  Rendered helo/index.html.erb within layouts/helo (1.1ms)
+Completed 200 OK in 6ms (Views: 3.9ms)
+
+
+Started GET "/helo" for ::1 at 2019-04-22 14:13:59 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/helo"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/helo" for ::1 at 2019-04-22 14:13:59 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/helo"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/helo/index" for ::1 at 2019-04-22 14:14:03 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/helo
+  Rendered helo/index.html.erb within layouts/helo (1.5ms)
+Completed 200 OK in 6ms (Views: 4.3ms)
+
+
+Started GET "/" for ::1 at 2019-04-22 14:14:04 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 8ms (Views: 5.2ms)
+
+
+Started GET "/index" for ::1 at 2019-04-22 14:14:05 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/helo
+  Rendered helo/index.html.erb within layouts/helo (1.1ms)
+Completed 200 OK in 5ms (Views: 3.9ms)
+
+
+Started GET "/index" for ::1 at 2019-04-22 14:14:06 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/helo
+  Rendered helo/index.html.erb within layouts/helo (1.2ms)
+Completed 200 OK in 6ms (Views: 4.1ms)
+
+
+Started GET "/index" for ::1 at 2019-04-22 14:14:40 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/helo
+  Rendered helo/index.html.erb within layouts/helo (1.1ms)
+Completed 200 OK in 5ms (Views: 3.8ms)
+
+
+Started GET "/" for ::1 at 2019-04-22 14:14:41 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 8ms (Views: 5.4ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-22 14:14:42 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/helo
+  Rendered helo/index.html.erb within layouts/helo (1.2ms)
+Completed 200 OK in 6ms (Views: 4.6ms)
+
+
+Started GET "/helo/index" for ::1 at 2019-04-22 14:14:43 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/helo
+  Rendered helo/index.html.erb within layouts/helo (1.2ms)
+Completed 200 OK in 5ms (Views: 3.8ms)
+
+
+Started GET "/helo" for ::1 at 2019-04-22 14:14:44 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/helo"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/helo" for ::1 at 2019-04-22 14:14:45 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/helo"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/helo" for ::1 at 2019-04-22 14:17:31 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/helo"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/helo/index" for ::1 at 2019-04-22 14:17:34 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/helo
+  Rendered helo/index.html.erb within layouts/helo (1.0ms)
+Completed 200 OK in 5ms (Views: 3.8ms)
+
+
+Started GET "/" for ::1 at 2019-04-22 14:17:35 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 8ms (Views: 5.3ms)
+
+
+Started GET "/index" for ::1 at 2019-04-22 14:17:36 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/helo
+  Rendered helo/index.html.erb within layouts/helo (1.0ms)
+Completed 200 OK in 5ms (Views: 3.7ms)
+
+
+Started GET "/index" for ::1 at 2019-04-22 14:17:37 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/helo
+  Rendered helo/index.html.erb within layouts/helo (1.1ms)
+Completed 200 OK in 6ms (Views: 3.9ms)
+
+
+Started GET "/index" for ::1 at 2019-04-22 14:19:17 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/helo
+  Rendered helo/index.html.erb within layouts/helo (0.3ms)
+Completed 500 Internal Server Error in 5ms
+
+
+  
+SyntaxError (/Users/mac/hoge/app/views/layouts/helo.html.erb:8: unknown regexp options - had
+unmatched close parenthesis: /title>
+    <%= csrf_meta_tags );@output_buffer.safe_append='
+    '.freeze;@output_buffer.append=( stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' );@output_buffer.safe_append='
+    '.freeze;@output_buffer.append=( javascript_include_tag 'application', 'data-turbolinks-track': 'reload' );@output_buffer.safe_append='
+  </
+/Users/mac/hoge/app/views/layouts/helo.html.erb:10: syntax error, unexpected '<'
+  <body>
+   ^
+/Users/mac/hoge/app/views/layouts/helo.html.erb:11: syntax error, unexpected tIDENTIFIER, expecting ')'
+...pend=( render template:'layouts/helo_header' );@output_buffe...
+...                               ^
+/Users/mac/hoge/app/views/layouts/helo.html.erb:11: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+... template:'layouts/helo_header' );@output_buffer.safe_append...
+...                               ^
+/Users/mac/hoge/app/views/layouts/helo.html.erb:13: syntax error, unexpected '<', expecting ')'
+    <div> </div>
+     ^
+/Users/mac/hoge/app/views/layouts/helo.html.erb:15: unknown regexp options - hl
+end pattern with unmatched parenthesis: /div>
+    <hr size="1" color="#aaa">
+    '.freeze;@output_buffer.append=( render template:'layouts/
+/Users/mac/hoge/app/views/layouts/helo.html.erb:15: syntax error, unexpected tIDENTIFIER, expecting ')'
+...r template:'layouts/helo_footer' );@output_buffer.safe_appen...
+...                               ^
+/Users/mac/hoge/app/views/layouts/helo.html.erb:16: syntax error, unexpected '<', expecting ')'
+  </body>
+   ^
+/Users/mac/hoge/app/views/layouts/helo.html.erb:17: unknown regexp options - htl
+/Users/mac/hoge/app/views/layouts/helo.html.erb:18: unterminated string meets end of file
+/Users/mac/hoge/app/views/layouts/helo.html.erb:18: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/layouts/helo.html.erb:8: unknown regexp options - had
+app/views/layouts/helo.html.erb:10: syntax error, unexpected '<'
+app/views/layouts/helo.html.erb:11: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/helo.html.erb:11: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/helo.html.erb:13: syntax error, unexpected '<', expecting ')'
+app/views/layouts/helo.html.erb:15: unknown regexp options - hl
+app/views/layouts/helo.html.erb:15: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/helo.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/helo.html.erb:17: unknown regexp options - htl
+app/views/layouts/helo.html.erb:18: unterminated string meets end of file
+app/views/layouts/helo.html.erb:18: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/index" for ::1 at 2019-04-22 14:21:09 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/helo
+  Rendered helo/index.html.erb within layouts/helo (0.5ms)
+Completed 500 Internal Server Error in 6ms
+
+
+  
+SyntaxError (/Users/mac/hoge/app/views/layouts/helo.html.erb:8: unknown regexp options - had
+unmatched close parenthesis: /title>
+    <%= csrf_meta_tags );@output_buffer.safe_append='
+    '.freeze;@output_buffer.append=( stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' );@output_buffer.safe_append='
+    '.freeze;@output_buffer.append=( javascript_include_tag 'application', 'data-turbolinks-track': 'reload' );@output_buffer.safe_append='
+  </
+/Users/mac/hoge/app/views/layouts/helo.html.erb:10: syntax error, unexpected '<'
+  <body>
+   ^
+/Users/mac/hoge/app/views/layouts/helo.html.erb:11: syntax error, unexpected tIDENTIFIER, expecting ')'
+...pend=( render template:'layouts/helo_header' );@output_buffe...
+...                               ^
+/Users/mac/hoge/app/views/layouts/helo.html.erb:11: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+... template:'layouts/helo_header' );@output_buffer.safe_append...
+...                               ^
+/Users/mac/hoge/app/views/layouts/helo.html.erb:13: syntax error, unexpected '<', expecting ')'
+    <div> </div>
+     ^
+/Users/mac/hoge/app/views/layouts/helo.html.erb:15: unknown regexp options - hl
+end pattern with unmatched parenthesis: /div>
+    <hr size="1" color="#aaa">
+    '.freeze;@output_buffer.append=( render template:'layouts/
+/Users/mac/hoge/app/views/layouts/helo.html.erb:15: syntax error, unexpected tIDENTIFIER, expecting ')'
+...r template:'layouts/helo_footer' );@output_buffer.safe_appen...
+...                               ^
+/Users/mac/hoge/app/views/layouts/helo.html.erb:16: syntax error, unexpected '<', expecting ')'
+  </body>
+   ^
+/Users/mac/hoge/app/views/layouts/helo.html.erb:17: unknown regexp options - htl
+/Users/mac/hoge/app/views/layouts/helo.html.erb:18: unterminated string meets end of file
+/Users/mac/hoge/app/views/layouts/helo.html.erb:18: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/layouts/helo.html.erb:8: unknown regexp options - had
+app/views/layouts/helo.html.erb:10: syntax error, unexpected '<'
+app/views/layouts/helo.html.erb:11: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/helo.html.erb:11: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/helo.html.erb:13: syntax error, unexpected '<', expecting ')'
+app/views/layouts/helo.html.erb:15: unknown regexp options - hl
+app/views/layouts/helo.html.erb:15: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/helo.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/helo.html.erb:17: unknown regexp options - htl
+app/views/layouts/helo.html.erb:18: unterminated string meets end of file
+app/views/layouts/helo.html.erb:18: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/index" for ::1 at 2019-04-22 14:23:17 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/helo
+  Rendered helo/index.html.erb within layouts/helo (0.3ms)
+  Rendering layouts/helo_header.html.erb
+  Rendered layouts/helo_header.html.erb (0.4ms)
+  Rendering layouts/helo_footer.html.erb
+  Rendered layouts/helo_footer.html.erb (0.4ms)
+Completed 200 OK in 21ms (Views: 19.2ms)
+
+
+Started GET "/index" for ::1 at 2019-04-22 16:36:47 +0900
+  
+SyntaxError (/Users/mac/hoge/config/routes.rb:2: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+  get 'dengonban', to :'dengonban#index'
+                        ^
+/Users/mac/hoge/config/routes.rb:3: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+  post 'dengonban', to :'dengonban#index'
+                         ^):
+  
+config/routes.rb:2: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+config/routes.rb:3: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+Started GET "/index" for ::1 at 2019-04-22 16:37:21 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-04-22 16:37:22 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/dengonban" for ::1 at 2019-04-22 16:37:24 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/dengonban"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/dengonban" for ::1 at 2019-04-22 16:39:51 +0900
+  
+SyntaxError (/Users/mac/hoge/config/routes.rb:2: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+  get 'dengonban', to :'dengonban#index'
+                        ^
+/Users/mac/hoge/config/routes.rb:3: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+  post 'dengonban', to :'dengonban#index'
+                         ^):
+  
+config/routes.rb:2: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+config/routes.rb:3: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+Started GET "/dengonban" for ::1 at 2019-04-22 16:39:56 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/dengonban"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/dengonban" for ::1 at 2019-04-22 16:40:00 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/dengonban"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/dengonban" for ::1 at 2019-04-22 16:43:59 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/dengonban"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/dengonban/index" for ::1 at 2019-04-22 16:44:01 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/dengonban/index"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `call'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/dengonban/index" for ::1 at 2019-04-22 16:49:59 +0900
+  
+SyntaxError (/Users/mac/hoge/app/controllers/dengonban_controller.rb:39: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/dengonban_controller.rb:39: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/dengonban/index" for ::1 at 2019-04-22 16:50:03 +0900
+  
+SyntaxError (/Users/mac/hoge/app/controllers/dengonban_controller.rb:39: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/dengonban_controller.rb:39: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/dengonban" for ::1 at 2019-04-22 16:50:04 +0900
+  
+SyntaxError (/Users/mac/hoge/app/controllers/dengonban_controller.rb:39: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/dengonban_controller.rb:39: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/dengonban" for ::1 at 2019-04-22 16:50:04 +0900
+  
+SyntaxError (/Users/mac/hoge/app/controllers/dengonban_controller.rb:39: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/dengonban_controller.rb:39: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/dengonban" for ::1 at 2019-04-22 16:56:05 +0900
+  
+ActionController::RoutingError (undefined method `attr_accesor' for MyData:Class):
+  
+app/controllers/dengonban_controller.rb:33:in `<class:MyData>'
+app/controllers/dengonban_controller.rb:32:in `<top (required)>'
+Started GET "/dengonban" for ::1 at 2019-04-22 16:56:52 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.0ms)
+Completed 500 Internal Server Error in 257ms
+
+
+  
+SyntaxError (/Users/mac/hoge/app/views/dengonban/index.html.erb:40: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/dengonban/index.html.erb:40: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/dengonban" for ::1 at 2019-04-22 17:00:04 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (4.8ms)
+Completed 500 Internal Server Error in 474ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  padding": expected ";", was ": 0px 10px"):
+    3:   <head>
+    4:     <title>伝言板</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    8:   </head>
+    9: 
+  
+app/assets/stylesheets/dengonban.scss:12
+app/views/layouts/dengonban.html.erb:6:in `_app_views_layouts_dengonban_html_erb__688628969232221793_70215446414320'
+Started GET "/dengonban" for ::1 at 2019-04-22 17:00:51 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.3ms)
+Completed 500 Internal Server Error in 20ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  color": expected ";", was ": #eee;"):
+    3:   <head>
+    4:     <title>伝言板</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    8:   </head>
+    9: 
+  
+app/assets/stylesheets/dengonban.scss:18
+app/views/layouts/dengonban.html.erb:6:in `_app_views_layouts_dengonban_html_erb__688628969232221793_70215502549300'
+Started GET "/dengonban" for ::1 at 2019-04-22 17:01:20 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.1ms)
+Completed 500 Internal Server Error in 20ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  padding": expected ";", was ": 10px 5px;"):
+    3:   <head>
+    4:     <title>伝言板</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    8:   </head>
+    9: 
+  
+app/assets/stylesheets/dengonban.scss:26
+app/views/layouts/dengonban.html.erb:6:in `_app_views_layouts_dengonban_html_erb__688628969232221793_70215502528780'
+Started GET "/dengonban" for ::1 at 2019-04-22 17:01:43 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.5ms)
+Completed 200 OK in 137ms (Views: 135.8ms)
+
+
+Started POST "/dengonban" for ::1 at 2019-04-22 17:02:14 +0900
+Processing by DengonbanController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QA3EeEindO35bj0j1fXIQSl9qmjUqA5MZvcNQ/TiYa4zQYpLk54nJ0rrxnOtFcSbmN1Jfco/vc0CN5jSDHfWpw==", "name"=>"huga", "mail"=>"xxxxxx@mail.com", "msg"=>"pico", "commit"=>"Click"}
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (2.7ms)
+Completed 500 Internal Server Error in 7ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for #<MyData:0x007fb89dbd8208>):
+    28: </tr>
+    29: <% @dengon_data.each do |key,obj| %>
+    30: <tr>
+    31:   <td class="msg"><%= obj['msg'] %></td>
+    32:   <td class="name"><%= obj['name'] %></td>
+    33:   <td class="mail"><%= obj['mail'] %></td>
+    34:   <td class="time"><%= Time.at(key.to_i) %></td>
+  
+app/views/dengonban/index.html.erb:31:in `block in _app_views_dengonban_index_html_erb___1173846920081157436_70215497207400'
+app/views/dengonban/index.html.erb:29:in `each'
+app/views/dengonban/index.html.erb:29:in `_app_views_dengonban_index_html_erb___1173846920081157436_70215497207400'
+Started POST "/dengonban" for ::1 at 2019-04-22 17:11:44 +0900
+Processing by DengonbanController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QA3EeEindO35bj0j1fXIQSl9qmjUqA5MZvcNQ/TiYa4zQYpLk54nJ0rrxnOtFcSbmN1Jfco/vc0CN5jSDHfWpw==", "name"=>"huga", "mail"=>"xxxxxx@mail.com", "msg"=>"pico", "commit"=>"Click"}
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (2.9ms)
+Completed 500 Internal Server Error in 7ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for #<MyData:0x007fb89f411b80>):
+    28: </tr>
+    29: <% @dengon_data.each do |key,obj| %>
+    30: <tr>
+    31:   <td class="msg"><%= obj['msg'] %></td>
+    32:   <td class="name"><%= obj['name'] %></td>
+    33:   <td class="mail"><%= obj['mail'] %></td>
+    34:   <td class="time"><%= Time.at(key.to_i) %></td>
+  
+app/views/dengonban/index.html.erb:31:in `block in _app_views_dengonban_index_html_erb___1173846920081157436_70215461229780'
+app/views/dengonban/index.html.erb:29:in `each'
+app/views/dengonban/index.html.erb:29:in `_app_views_dengonban_index_html_erb___1173846920081157436_70215461229780'
+Started GET "/dengonban" for ::1 at 2019-04-22 17:11:47 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.9ms)
+Completed 200 OK in 21ms (Views: 19.2ms)
+
+
+Started POST "/dengonban" for ::1 at 2019-04-22 17:12:19 +0900
+Processing by DengonbanController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kdHyQTEUvBHcl6e+6iAzQ++C8PF668bEhZPpVTeQqlbinbxy6i3v228SXO6SwD+ZXiIT5GR8dUXhU3zEzwUdXw==", "name"=>"023", "mail"=>"yyyyyy@mail.com", "msg"=>"huga", "commit"=>"Click"}
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (2.9ms)
+Completed 500 Internal Server Error in 8ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for #<MyData:0x007fb89dce3f08>):
+    28: </tr>
+    29: <% @dengon_data.each do |key,obj| %>
+    30: <tr>
+    31:   <td class="msg"><%= obj['msg'] %></td>
+    32:   <td class="name"><%= obj['name'] %></td>
+    33:   <td class="mail"><%= obj['mail'] %></td>
+    34:   <td class="time"><%= Time.at(key.to_i) %></td>
+  
+app/views/dengonban/index.html.erb:31:in `block in _app_views_dengonban_index_html_erb___1173846920081157436_70215449116760'
+app/views/dengonban/index.html.erb:29:in `each'
+app/views/dengonban/index.html.erb:29:in `_app_views_dengonban_index_html_erb___1173846920081157436_70215449116760'
+Started POST "/dengonban" for ::1 at 2019-04-22 17:16:47 +0900
+Processing by DengonbanController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kdHyQTEUvBHcl6e+6iAzQ++C8PF668bEhZPpVTeQqlbinbxy6i3v228SXO6SwD+ZXiIT5GR8dUXhU3zEzwUdXw==", "name"=>"023", "mail"=>"yyyyyy@mail.com", "msg"=>"huga", "commit"=>"Click"}
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (4.7ms)
+Completed 500 Internal Server Error in 203ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for #<MyData:0x007fe8774ca9c0>):
+    28: </tr>
+    29: <% @dengon_data.each do |key,obj| %>
+    30: <tr>
+    31:   <td class="msg"><%= obj['msg'] %></td>
+    32:   <td class="name"><%= obj['name'] %></td>
+    33:   <td class="mail"><%= obj['mail'] %></td>
+    34:   <td class="time"><%= Time.at(key.to_i) %></td>
+  
+app/views/dengonban/index.html.erb:31:in `block in _app_views_dengonban_index_html_erb__2556838653326262959_70318205259600'
+app/views/dengonban/index.html.erb:29:in `each'
+app/views/dengonban/index.html.erb:29:in `_app_views_dengonban_index_html_erb__2556838653326262959_70318205259600'
+Started GET "/dengonban" for ::1 at 2019-04-22 17:16:50 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.3ms)
+Completed 200 OK in 340ms (Views: 337.7ms)
+
+
+Started POST "/dengonban" for ::1 at 2019-04-22 17:17:54 +0900
+Processing by DengonbanController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6X3qyBQazGYNJpKXH1rnewlmkD4W0nIH/Vgm8CsaDWmaMaT7zyOfrL6jacdnuuuhuMZzKwhFwYaZmLNh04+6YA==", "name"=>"hoge", "mail"=>"zzzzz@mail.com", "msg"=>"hogehoge", "commit"=>"Click"}
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (3.6ms)
+Completed 500 Internal Server Error in 8ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for #<MyData:0x007fe87c3c4be8>):
+    28: </tr>
+    29: <% @dengon_data.each do |key,obj| %>
+    30: <tr>
+    31:   <td class="msg"><%= obj['msg'] %></td>
+    32:   <td class="name"><%= obj['name'] %></td>
+    33:   <td class="mail"><%= obj['mail'] %></td>
+    34:   <td class="time"><%= Time.at(key.to_i) %></td>
+  
+app/views/dengonban/index.html.erb:31:in `block in _app_views_dengonban_index_html_erb__2556838653326262959_70318209924400'
+app/views/dengonban/index.html.erb:29:in `each'
+app/views/dengonban/index.html.erb:29:in `_app_views_dengonban_index_html_erb__2556838653326262959_70318209924400'
+Started POST "/dengonban" for ::1 at 2019-04-22 17:23:24 +0900
+Processing by DengonbanController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6X3qyBQazGYNJpKXH1rnewlmkD4W0nIH/Vgm8CsaDWmaMaT7zyOfrL6jacdnuuuhuMZzKwhFwYaZmLNh04+6YA==", "name"=>"hoge", "mail"=>"zzzzz@mail.com", "msg"=>"hogehoge", "commit"=>"Click"}
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (25.7ms)
+Completed 500 Internal Server Error in 31ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for #<MyData:0x007fe87e91a690>):
+    28: </tr>
+    29: <% @dengon_data.each do |key,obj| %>
+    30: <tr>
+    31:   <td class="msg"><%= obj['msg'] %></td>
+    32:   <td class="name"><%= obj['name'] %></td>
+    33:   <td class="mail"><%= obj['mail'] %></td>
+    34:   <td class="time"><%= Time.at(key.to_i) %></td>
+  
+app/views/dengonban/index.html.erb:31:in `block in _app_views_dengonban_index_html_erb__2556838653326262959_70318266319380'
+app/views/dengonban/index.html.erb:29:in `each'
+app/views/dengonban/index.html.erb:29:in `_app_views_dengonban_index_html_erb__2556838653326262959_70318266319380'
+Started GET "/dengonban" for ::1 at 2019-04-22 17:23:56 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (3.1ms)
+Completed 200 OK in 514ms (Views: 273.3ms)
+
+
+Started POST "/dengonban" for ::1 at 2019-04-22 17:24:01 +0900
+Processing by DengonbanController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aHkBJ7W6n5x6VSXmLtogJqlS1hHUWJndcC7mMHdvuAQbNU8UboPMVsnQ3rZWOiz8GPI1BMrPKlwU7nOhj/oPDQ==", "name"=>"", "mail"=>"", "msg"=>"", "commit"=>"Click"}
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (4.0ms)
+Completed 500 Internal Server Error in 9ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for #<MyData:0x007f8d4a6c0eb0 @name="", @mail="", @msg="">):
+    28: </tr>
+    29: <% @dengon_data.each do |key,obj| %>
+    30: <tr>
+    31:   <td class="msg"><%= obj['msg'] %></td>
+    32:   <td class="name"><%= obj['name'] %></td>
+    33:   <td class="mail"><%= obj['mail'] %></td>
+    34:   <td class="time"><%= Time.at(key.to_i) %></td>
+  
+app/views/dengonban/index.html.erb:31:in `block in _app_views_dengonban_index_html_erb___3220804075887868099_70122440510920'
+app/views/dengonban/index.html.erb:29:in `each'
+app/views/dengonban/index.html.erb:29:in `_app_views_dengonban_index_html_erb___3220804075887868099_70122440510920'
+Started GET "/dengonban" for ::1 at 2019-04-22 17:24:17 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (2.1ms)
+Completed 200 OK in 21ms (Views: 19.5ms)
+
+
