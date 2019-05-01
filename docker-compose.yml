@@ -1,0 +1,37 @@
+version: "2"
+services:
+  app:
+    build: containers/app
+    container_name: hoge_app
+    environment:
+      RAILS_ENV: development
+      DATABASE_HOST: db
+      DATABASE_USERNAME: root
+      DATABASE_PASSWORD: password
+    ports:
+      - 3000:3000
+    command: bash -c "bundle exec rails s -b 0.0.0.0"
+    volumes:
+      - hoge_sync:/var/www:rw
+      - cache:/usr/local/bundle
+    links:
+      - db
+
+  db:
+    build: containers/mysql
+    container_name: hoge_db
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: hoge_development
+      MYSQL_USER: hoge
+      MYSQL_PASSWORD: password
+    ports:
+      - 3306:3306
+    volumes:
+      - db:/var/lib/mysql
+
+volumes:
+  hoge_sync:
+    external: true
+  cache:
+  db:

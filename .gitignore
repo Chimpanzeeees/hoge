@@ -1,0 +1,16 @@
+/.bundle
+/vendor/bundle/
+/log/*.log
+/tmp
+/uploads/tmp/
+/config/settings.local.yml
+/config/settings/*.local.yml
+/config/environments/*.local.yml
+/config/secrets.yml
+.env.local
+.pryrc
+.DS_Store
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
