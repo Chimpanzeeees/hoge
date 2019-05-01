@@ -16,6 +16,8 @@ services:
       - cache:/usr/local/bundle
     links:
       - db
+    tty: true
+    stdin_open: true
 
   db:
     build: containers/mysql

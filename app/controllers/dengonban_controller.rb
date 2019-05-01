@@ -10,7 +10,7 @@ class DengonbanController < ApplicationController
     end
     @dengon_data.each do |key,obj|
       if Time.now.to_i - key.to_i > 24*60*60 then
-        @dengon_dara.delete(key)
+        @dengon_data.delete(key)
       end
     end
     File.write("data.txt", @dengon_data.to_json)
@@ -26,7 +26,6 @@ class DengonbanController < ApplicationController
       @dengon_deta = JSON.parse(data)
     end
   end
-
 end
 
 class MyData
